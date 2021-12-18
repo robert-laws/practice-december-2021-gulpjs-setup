@@ -1,0 +1,11 @@
+@use '../abstracts/' as a;
+
+.card {
+  padding: a.$base-padding;
+  background-color: darken(a.$primary, 20%);
+
+  p {
+    color: white;
+    font-size: a.$base-font-size;
+  }
+}
